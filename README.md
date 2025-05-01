@@ -16,8 +16,15 @@ This script enhances your Tana workflow by providing a global keyboard shortcut 
 
 ## Installation
 
-1. Download the `Tana Quick Add.sh` file from this repository
-2. Move it to your Raycast Script Commands directory:
+1. First, set up your Script Commands directory in Raycast:
+   - Open Raycast Settings
+   - Go to Extensions → Script Commands
+   - Click "Add Directories" and add `~/.raycast/script-commands`
+   
+   ![Add Script Directory in Raycast](./assets/addscriptdirectoryfolderinraycast.png)
+
+2. Download the `Tana Quick Add.sh` file from this repository
+3. Move it to your Raycast Script Commands directory:
    ```bash
    # Create the Scripts directory if it doesn't exist
    mkdir -p ~/.raycast/script-commands
@@ -29,7 +36,7 @@ This script enhances your Tana workflow by providing a global keyboard shortcut 
    chmod +x ~/.raycast/script-commands/tana-quick-add.sh
    ```
 
-The command will appear in Raycast automatically once the file is in place.
+The command will appear in Raycast automatically once the file is in place, as the directory is being watched for changes.
 
 ## Keyboard Shortcut
 
