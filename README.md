@@ -2,6 +2,8 @@
 
 A Raycast script command that provides quick access to Tana's Quick Add feature, allowing you to add notes to Tana directly from Raycast.
 
+![Tana Quick Add in Action](./assets/runcommand.png)
+
 ## Overview
 
 This script enhances your Tana workflow by providing a global keyboard shortcut to open Tana's Quick Add feature. It can be used to either open Quick Add for manual input or directly add text from Raycast.
@@ -25,6 +27,8 @@ This script enhances your Tana workflow by providing a global keyboard shortcut 
    - Package Name: "Tana Utilities"
    - Mode: "Compact"
    - Icon: "Tana" (or your preferred icon)
+
+![Script Configuration](./assets/runcommand.png)
 
 ## Keyboard Shortcut
 
@@ -53,6 +57,8 @@ This will allow you to trigger the Tana Quick Add command directly with your cho
 3. Type your note text
 4. Press Enter to add the note directly to Tana
 
+![Quick Add with Text](./assets/afterrunning.png)
+
 ## Features
 
 - Global keyboard shortcut access to Tana's Quick Add
@@ -60,6 +66,16 @@ This will allow you to trigger the Tana Quick Add command directly with your cho
 - Automatic activation of Tana
 - Quick Add shortcut simulation (Cmd+E)
 - Text escaping for special characters
+
+## Screenshots
+
+Here are some key screenshots showing the Tana Quick Add command in action:
+
+![Tana Quick Add Command](./assets/runcommand.png)
+*The Tana Quick Add command in Raycast*
+
+![Quick Add in Tana](./assets/afterrunning.png)
+*Quick Add interface in Tana*
 
 ## Troubleshooting
 
