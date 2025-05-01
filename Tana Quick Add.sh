@@ -20,7 +20,7 @@
 
 # Activate Tana and open Quick Add (Cmd+E)
 osascript -e 'tell application "Tana" to activate' \
-          -e 'delay 0.2' \
+          -e 'delay 0.5' \
           -e 'tell application "System Events" to keystroke "e" using command down'
 
 # Check if an argument (note text) was provided via Raycast
